@@ -59,7 +59,7 @@
               </mdb-row>
             </mdb-col>
           </mdb-row>
-          <mdb-btn color="primary" type="submit" class="float-md-left">Send</mdb-btn>
+          <mdb-btn color="primary" @click="handleSubmit()" type="submit" class="float-md-left">Send</mdb-btn>
         </form>
       </mdb-card-body>
     </mdb-card>
